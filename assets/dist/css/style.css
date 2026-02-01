@@ -1,0 +1,53 @@
+/* Personalizzazioni Generali */
+body { 
+    padding-top: 3rem; 
+}
+
+/* Carousel */
+.carousel-item {
+    height: 32rem;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background Immagini Carousel */
+.bg-electronics { background-image: url('../../../img/main.jpg'); }
+.bg-informatics { background-image: url('../../../img/inf.jpg'); }
+.bg-application { background-image: url('../../../img/Olter.jpg'); }
+
+.caption-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    display: inline-block;
+    color: white;
+}
+
+/* Sezione Istruzione (Marketing) */
+.edu-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgba(128, 128, 128, 0.2);
+    margin-bottom: 1rem;
+}
+
+/* Sezione Featurette */
+.featurette-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.featurette-divider { 
+    margin: 4rem 0; 
+}
+
+/* Floating Toggle Button (Dark Mode Switcher) */
+.bd-mode-toggle { 
+    z-index: 2000; 
+}
